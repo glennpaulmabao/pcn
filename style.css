@@ -7,6 +7,8 @@
 .links{
     width: 80%;
     margin: auto;
+    color: #ffffff;
+    font-size: small;
 }
 .socialmedia{
     display: flex;
