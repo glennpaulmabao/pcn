@@ -10,18 +10,18 @@
 }
 .socialmedia{
     display: flex;
-    flex: 1;
-    justify-self: start;
+    width: 10%;
+    justify-content: start;
 }
 .contactinfo{
     display: flex;
-    flex: 2;
-    justify-self: center;
+    width: 60%;
+    justify-content: center;
 }
 .timesheer{
     display: flex;
-    flex: 1;
-    justify-self: end;
+    width: 10%;
+    justify-content: end;
 }
 .nav{
     height: 2.9%;
