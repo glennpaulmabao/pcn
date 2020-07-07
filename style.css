@@ -5,6 +5,7 @@
     background-color: #004a80;
 }
 .links{
+    display: flex;
     width: 80%;
     margin: auto;
     color: #ffffff;
