@@ -1,4 +1,5 @@
 .topheader{
+    display: flex;
     height: 0.7%;
     width: 100%;
     background-color: #004a80;
