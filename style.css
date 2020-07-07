@@ -11,17 +11,14 @@
 .socialmedia{
     display: flex;
     width: 10%;
-    justify-content: start;
 }
 .contactinfo{
     display: flex;
     width: 60%;
-    justify-content: center;
 }
 .timesheer{
     display: flex;
     width: 10%;
-    justify-content: end;
 }
 .nav{
     height: 2.9%;
