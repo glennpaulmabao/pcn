@@ -51,16 +51,17 @@ a{
 }
 .nav{
     height: 174px;
-    width: 80%;
+    padding: 50px 0;
     margin: auto;
     background-color: #ffffff;
 }
+.logo img{
+    height: auto;
+    width: 183px;
+    margin:0px 150px;
+}
 .nav-links{
     display: flex;
-    float: right;
-    width: 575px;
-    justify-content: center;
-    align-content: flex-end;
 }
 .nav-links li{
     margin: 0px 40px;
@@ -76,15 +77,13 @@ a{
 }
 #navbar{
     background-color: #ffffff;
-    overflow: hidden;
     width: 100%;
 }
-
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 0px;
+    padding: 0;
     height: 80px;
     justify-content: center;
 }
