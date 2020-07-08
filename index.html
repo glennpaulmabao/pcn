@@ -19,6 +19,7 @@
             </div>
             <div class="contactinfo">
                 <img src="./img/icon-mail.png" alt="email">sales@pcnstrategies.com
+                <div class="spacer"></div>
                 <img src="./img/icon-call.png" alt="phone">+1 202 962 3980
             </div>
             <div class="timesheet">
@@ -26,10 +27,37 @@
             </div>
         </div>
     </div>
-    <div class="nav">
-
+    <div id="navbar">
+        <div class="nav">
+            <div class="logo">
+                <a href=""><img src="./img/logo.png" alt="pcnstrategies" style="height: auto; width: 183px;" id="Logo"></a>
+            </div>
+            <div class="nav-links">
+                    <li class="active"><a href="">HOME</a></li>
+                    <li><a href="">SOLUTIONS</a></li>
+                    <li><a href="">PRODUCTS</a></li>
+                    <li><a href="">CONTACT</a></li>
+            </div>
+        </div>    
     </div>
-<img src="./img/index_Pages_HigherEducationSolutions_.png" height="auto" width="100%"alt="">
+<img src="./img/index.png" height="auto" width="100%"alt="">
+
+
+<script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    
+</script>    
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
